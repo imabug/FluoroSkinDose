@@ -1,0 +1,125 @@
+%% ****** Start of file template.aps ****** %
+%%
+%%
+%%   This file is part of the APS files in the REVTeX 4 distribution.
+%%   Version 4.0 of REVTeX, August 2001
+%%
+%%
+%%   Copyright (c) 2001 The American Physical Society.
+%%
+%%   See the REVTeX 4 README file for restrictions and more information.
+%%
+%
+% This is a template for producing manuscripts for use with REVTEX 4.0
+% Copy this file to another name and then work on that file.
+% That way, you always have this original template file to use.
+%
+% Group addresses by affiliation; use superscriptaddress for long
+% author lists, or if there are many overlapping affiliations.
+% For Phys. Rev. appearance, change preprint to twocolumn.
+% Choose pra, prb, prc, prd, pre, prl, prstab, or rmp for journal
+%  Add 'draft' option to mark overfull boxes with black boxes
+%  Add 'showpacs' option to make PACS codes appear
+%  Add 'showkeys' option to make keywords appear
+\documentclass[aps,showpacs,showkeys,preprint,amsmath,amssymb]{revtex4}
+%\documentclass[aps,prl,preprint,superscriptaddress]{revtex4}
+%\documentclass[aps,prl,twocolumn,groupedaddress]{revtex4}
+
+\usepackage{graphicx}% Include figure files
+\usepackage{hyperref} 
+
+
+\begin{document}
+
+% Use the \preprint command to place your local institutional report
+% number in the upper righthand corner of the title page in preprint mode.
+% Multiple \preprint commands are allowed.
+% Use the 'preprintnumbers' class option to override journal defaults
+% to display numbers if necessary
+%\preprint{}
+
+%Title of paper
+\title{}
+
+% repeat the \author .. \affiliation  etc. as needed
+% \email, \thanks, \homepage, \altaffiliation all apply to the current
+% author. Explanatory text should go in the []'s, actual e-mail
+% address or url should go in the {}'s for \email and \homepage.
+% Please use the appropriate macro foreach each type of information
+
+% \affiliation command applies to all authors since the last
+% \affiliation command. The \affiliation command should follow the
+% other information
+% \affiliation can be followed by \email, \homepage, \thanks as well.
+\author{Eugene Mah, M.Sc.}
+  \email{maheug@musc.edu}
+  \homepage{http://radinfo.musc.edu/}
+%\thanks{}
+%\altaffiliation{}
+
+%Collaboration name if desired (requires use of superscriptaddress
+%option in \documentclass). \noaffiliation is required (may also be
+%used with the \author command).
+%\collaboration can be followed by \email, \homepage, \thanks as well.
+%\collaboration{}
+%\noaffiliation
+
+\date{\today}
+
+\begin{abstract}
+Fluoroscopy skin entrance exposure (SEE) rates are measured annually for various types of fluoroscopy imaging systems. SEE rates are measured for the different dose modes and mag modes provided by the system, and using different thicknesses of Lucite in the beam. SEE rates were collected from annual inspections of fixed fluoroscopy units, mobile c-arms, interventional radiology and cardiac cath labs.
+
+Over all types of units, SEE in the normal image receptor mode with 20 cm Lucite in the beam was 12{\pm}6 mGy/min. With 10 cm of Lucite in the beam, SEE relative to 20 cm decreased by a factor of 0.17{\pm}0.06. With 30 cm of Lucite in the beam SEE relative to 20 cm increased by a factor of 4.8{\pm}2.2.
+
+The SEE in Mag 1 mode was increased by a factor of 1.41{\pm}0.27 relative to the normal (non-mag) mode while in Mag 2 SEE increased by a factor of 2.16{\pm}0.79 relative to the normal mode.
+\end{abstract}
+
+% insert suggested PACS numbers in braces on next line
+\pacs{87.57.-s}
+% insert suggested keywords - APS authors don't need to do this
+\keywords{PACS, archive, storage requirements}
+
+%\maketitle must follow title, authors, abstract, \pacs, and \keywords
+\maketitle
+
+% body of paper here - Use proper section commands
+% References should be done using the \cite, \ref, and \label commands
+\section{Introduction}
+\label{sec:Introduction}
+
+%\subsection{}
+%\subsubsection{}
+
+\section{Materials and Methods}
+\label{sec:MatMethods}
+
+
+\section{Results}
+\label{sec:Results}
+
+
+\section{Discussion}
+\label{sec:Discussion}
+
+\section{Conclusion}
+\label{sec:Conclusion}
+
+% If you have acknowledgments, this puts in the proper section head.
+%\begin{acknowledgments}
+% put your acknowledgments here.
+%\end{acknowledgments}
+
+% You should use BibTeX and apsrev.bst for references
+% Choosing a journal automatically selects the correct APS
+% BibTeX style file (bst file), so only uncomment the line
+% below if necessary.
+\bibliographystyle{vancouver}
+
+% Create the reference section using BibTeX:
+\bibliography{}
+
+\end{document}
+%
+% ****** End of file template.aps ******
+
+
